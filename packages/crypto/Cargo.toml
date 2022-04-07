@@ -20,7 +20,7 @@ bench = false
 
 [dependencies]
 k256 = { version = "0.9.6", features = ["ecdsa"] }
-ed25519-zebra = "3"
+ed25519-zebra = { version = "3", default-features = false }
 digest = "0.9"
 rand_core = { version = "0.6", features = ["getrandom"] }
 thiserror = "1.0"
